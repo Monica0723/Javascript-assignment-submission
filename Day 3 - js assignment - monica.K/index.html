@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>To Do items</title>
+        <style>
+		
+		*{
+                margin: 0px;
+                padding: 0px;
+				background-color:#d0e0e3;
+            }
+			
+			
+			 .container{
+                padding: 50px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+button {
+                padding-top: 12px;
+                padding-bottom: 12px;
+                width: 20%;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                font-size: 20px;
+                text-transform: uppercase;
+				background-color:#d9d9d9;
+				border-radius:5px;
+
+            }
+			input{
+                width: 30%;
+                height: 50px;
+                text-indent: 20px;
+                font-size: 20px;
+                border-radius: 10px;
+                outline: none;
+                border: 1px solid gray;
+            }
+			 
+            .two{
+                padding-top: 20px;
+                padding-bottom: 20px;
+                width: 400px;
+                /* background-color: gray; */
+                
+            }
+			.items{
+                padding-top: 10px;
+                padding-bottom: 10px;
+                text-indent: 20px;
+                margin: 10px;
+                font-size: 25px;
+                font-weight: normal;
+                font-family: segoe UI;
+                box-shadow: 0 0 2px gray;
+                border-radius: 10px;
+				background-color:white;
+                
+            }
+
+           
+		</style>
+		</head>
+		<body>
+		 
+		
+		 <div class="container">
+
+            <input type="text" placeholder="items..." id="inp" />
+            <button onclick="additems()">Add To cart</button>
+            <button onclick="changeColor()">Change Color</button>
+
+            <div id="two" class="two">
+
+            </div>
+			<button type="submit"  value="" id="submit" >Submit</button>
+</div>
+ <script src="second.js"></script>
+
+           
+        </div>
+		</body>
+		</html>
